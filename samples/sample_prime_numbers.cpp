@@ -15,7 +15,8 @@ int main()
 
 	setlocale(LC_ALL, "Russian");
 
-	cout << "Enter an arithmetic expression: ";
+	cout << "Welcome to the Arithmetic Expression Translator! \n\nOn this page you can familiarize yourself with the rules\nfor entering arithmetic expressions and the program's capabilities:\nhttps://github.com/DariyaSavva/translator_lab/blob/main/README.md\n\nEnter an arithmetic expression: ";
+	std::getline(std::cin, str); ";
 	std::getline(std::cin, str);
 	Translator t(str);
 	map<string, double> values;
